@@ -1,23 +1,23 @@
 @import url(../fonts/Almarai.css);
 :root {
-  --primary-950: #0b0f19;
-  --primary-900: #1e1b4b;
-  --primary-800: #312e81;
-  --primary-700: #4338ca;
-  --primary-600: #4f46e5;
-  --primary-500: #6366f1;
-  --cyan-accent: #00d2ff;
-  --star-gold: #f59e0b;
-  --star-gold-light: #fbbf24;
-  --soft-blue: #eef2ff;
-  --soft-blue-2: #f8fafc;
-  --blue-border: #c7d2fe;
-  --blue-border-strong: #818cf8;
-  --text: #0f172a;
-  --muted: #475569;
+  --primary-950: #28170b;
+  --primary-900: #3b2313;
+  --primary-800: #4f301b;
+  --primary-700: #6b4226;
+  --primary-600: #8b572a;
+  --primary-500: #a86e3b;
+  --cyan-accent: #d97706;
+  --star-gold: #c27803;
+  --star-gold-light: #e69d29;
+  --soft-blue: #f7f1e5;
+  --soft-blue-2: #fcfaf6;
+  --blue-border: #e8d8c5;
+  --blue-border-strong: #cfae8f;
+  --text: #27170c;
+  --muted: #685444;
   --white: #ffffff;
-  --danger: #e11d48;
-  --shadow: 0 12px 30px rgba(49, 46, 129, 0.18);
+  --danger: #dc2626;
+  --shadow: 0 12px 30px rgba(59, 35, 19, 0.16);
 
   --green-950: var(--primary-950);
   --green-900: var(--primary-900);
@@ -39,7 +39,7 @@ button { -webkit-tap-highlight-color: transparent; }
 
 .container { min-height: 100dvh; overflow-y: auto; background: var(--white); }
 .screen { width: 100%; min-width: 320px; max-width: 430px; min-height: 100dvh; margin: 0 auto; position: relative; overflow: visible; }
-.screen-content { min-height: 100dvh; padding: 12px 12px 24px; position: relative; background: linear-gradient(180deg, #ffffff 0%, #f8fafc 55%, #eef2ff 100%); }
+.screen-content { min-height: 100dvh; padding: 12px 12px 24px; position: relative; background: linear-gradient(180deg, #fdfbf7 0%, #f7f1e5 55%, #ede2cf 100%); }
 
 .login { display: block; }
 .main-frame { width: 100%; position: relative; overflow: hidden; border: 1px solid var(--blue-border); border-radius: 24px; background: var(--white); box-shadow: var(--shadow); }
